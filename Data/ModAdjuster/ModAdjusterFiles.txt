@@ -1,2 +1,3 @@
 CubeBlocks_Drills.xml
 CubeBlocks_Gyroscope.xml
+CubeBlocks_Production.xm
