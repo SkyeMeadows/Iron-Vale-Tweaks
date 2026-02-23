@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RespawnShips>
-    <Ship Enabled="false">
+    <Ship Enabled="true">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>Planet Respawn Pod</SubtypeId>
+        <SubtypeId>IVS-PlanetRespawnPod</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
-      <Icon>Data\Spawn Stuff\Icons\rover.png</Icon>
-      <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>Planet Respawn Pod</Prefab>
+      <DisplayName>Starter Rover</DisplayName>
+      <Icon></Icon>
+      <CooldownSeconds>300</CooldownSeconds>
+      <Prefab>Explorer-MK4</Prefab>
       
       <PlanetDeployAltitude>100</PlanetDeployAltitude>
       <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
@@ -22,12 +22,12 @@
     <Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>Starter Pod</SubtypeId>
+        <SubtypeId>IVS-StarterPod</SubtypeId>
       </Id>
       <DisplayName>Starter Pod</DisplayName>
-      <Icon>Data\Spawn Stuff\Icons\space.png</Icon>
+      <Icon></Icon>
       <CooldownSeconds>300</CooldownSeconds>
-      <Prefab>IVS Starter Pod</Prefab>
+      <Prefab>Explorer-MK5</Prefab>
       
       <UseForSpace>true</UseForSpace>
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
