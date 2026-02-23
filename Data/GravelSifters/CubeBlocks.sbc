@@ -5,10 +5,10 @@
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
 			<Id>
 				<TypeId>Refinery</TypeId>
-				<SubtypeId>OreCompactorLarge</SubtypeId>
+				<SubtypeId>GravelSifterLarge</SubtypeId>
 			</Id>
-			<DisplayName>Large Ore Compactor</DisplayName>
-			<Description>A production machine that compacts ores into roughly 1/4th their size, increasing their density.</Description>
+			<DisplayName>Gravel Sifter</DisplayName>
+			<Description>A production machine that sifts through gravel to find trace amounts of basic materials</Description>
 			<Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -16,15 +16,14 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="500" />
-				<Component Subtype="Construction" Count="400" />
-				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="Motor" Count="200" />
-				<Component Subtype="MetalGrid" Count="75" />
+				<Component Subtype="SteelPlate" Count="100" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Motor" Count="100" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
-			<CriticalComponent Subtype="MetalGrid" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -38,7 +37,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
             </BuildProgressModels>
 
-			<BlockPairName>OreCompactor</BlockPairName>
+			<BlockPairName>GravelSifter</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildTimeSeconds>90</BuildTimeSeconds>
@@ -57,10 +56,10 @@
 			<OperationalPowerConsumption>5</OperationalPowerConsumption>
 
 			<BlueprintClasses>
-				<Class>CompactedOres</Class>
+				<Class>GravelSifting</Class>
 			</BlueprintClasses>
 
-			<RefineSpeed>22.5</RefineSpeed>
+			<RefineSpeed>2</RefineSpeed>
             <MaterialEfficiency>1.0</MaterialEfficiency>
 
 			<OreAmountPerPullRequest>5000</OreAmountPerPullRequest>

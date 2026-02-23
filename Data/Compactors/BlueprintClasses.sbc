@@ -88,6 +88,14 @@
         <Entry Class="Ingots" BlueprintSubtypeId="CompactedPlatinumOreToIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="CompactedUraniumOreToIngot" />
 
+<!-- Basic Refinery Ore Smelting Blueprints-->
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedStoneOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedIronOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedNickelOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedCobaltOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedMagnesiumOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="CompactedSiliconOreToIngot" />
+
 <!-- Compacted Ice to Gas -->
         <Entry Class="Ice" BlueprintSubtypeId="CompactedIceToOxygen" />
 
