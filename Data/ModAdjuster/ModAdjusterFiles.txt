@@ -1,3 +1,4 @@
 CubeBlocks_Drills.xml
 CubeBlocks_Gyroscope.xml
-CubeBlocks_Production.xm
+CubeBlocks_Production.xml
+CubeBlocks_Weapons.xml
