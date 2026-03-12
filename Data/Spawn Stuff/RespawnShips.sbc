@@ -19,7 +19,7 @@
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
     </Ship>
     
-    <Ship Enabled="false">
+    <Ship Enabled="true">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
         <SubtypeId>IVS-StarterPod</SubtypeId>

@@ -19,7 +19,7 @@
 				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="Motor" Count="20" />
 				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
@@ -40,7 +40,7 @@
 			<BlockPairName>GravelSifter</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<InventoryMaxVolume>10.0</InventoryMaxVolume>
 			<InventorySize>
@@ -53,7 +53,7 @@
 			<InventoryFillFactorMax>0.9</InventoryFillFactorMax>
 
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.25</OperationalPowerConsumption>
 
 			<BlueprintClasses>
 				<Class>GravelSifting</Class>

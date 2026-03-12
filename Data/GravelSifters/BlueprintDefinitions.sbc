@@ -13,10 +13,10 @@
                 <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
             </Prerequisites>
             <Results>
-                <Item Amount="7" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
-                <Item Amount="0.02" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1.2" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Cobalt" />
             </Results>
             <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
             <IsPrimary>true</IsPrimary>
