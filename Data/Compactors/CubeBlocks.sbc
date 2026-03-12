@@ -16,13 +16,13 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="500" />
-				<Component Subtype="Construction" Count="400" />
+				<Component Subtype="SteelPlate" Count="200" />
+				<Component Subtype="Construction" Count="100" />
 				<Component Subtype="LargeTube" Count="40" />
-				<Component Subtype="Motor" Count="200" />
+				<Component Subtype="Motor" Count="50" />
 				<Component Subtype="MetalGrid" Count="75" />
 				<Component Subtype="Computer" Count="40" />
-				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="MetalGrid" Index="0"/>
 			<MountPoints>
@@ -54,7 +54,7 @@
 			<InventoryFillFactorMax>0.9</InventoryFillFactorMax>
 
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>5</OperationalPowerConsumption>
+			<OperationalPowerConsumption>1</OperationalPowerConsumption>
 
 			<BlueprintClasses>
 				<Class>CompactedOres</Class>
