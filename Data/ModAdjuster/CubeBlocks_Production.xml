@@ -7,7 +7,7 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId></SubtypeId>
             </Id>
-            <IceConsumptionPerSecond>50</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -15,7 +15,7 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>OxygenGeneratorSmall</SubtypeId>
             </Id>
-            <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -23,7 +23,7 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>LargeBlockOxygenGeneratorLab</SubtypeId>
             </Id>
-            <IceConsumptionPerSecond>50</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
 			<DLC>Fieldwork</DLC>
         </Definition>
 
@@ -32,7 +32,7 @@
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>SmallBlockOxygenGeneratorLab</SubtypeId>
             </Id>
-            <IceConsumptionPerSecond>10</IceConsumptionPerSecond>
+            <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
 			<DLC>Fieldwork</DLC>
         </Definition>
 

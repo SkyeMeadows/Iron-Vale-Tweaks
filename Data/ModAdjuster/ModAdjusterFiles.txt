@@ -1,5 +1,5 @@
 CubeBlocks_Drills.xml
 CubeBlocks_Gyroscope.xml
+CubeBlocks_HydrogenEngines.xml
 CubeBlocks_Production.xml
 CubeBlocks_Thrusters.xml
-CubeBlocks_Weapons.xml
