@@ -55,6 +55,7 @@
 
 <!-- Compacted Ice to Gas -->
         <Entry Class="Ice" BlueprintSubtypeId="CompactedIceToOxygen" />
+        <Entry Class="Water" BlueprintSubtypeId="CompactedIceToOxygen" />
 
     </BlueprintClassEntries>
 </Definitions>

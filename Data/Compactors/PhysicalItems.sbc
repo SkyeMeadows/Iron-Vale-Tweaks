@@ -6,7 +6,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedStone</SubtypeId>
       </Id>
-      <DisplayName>Compacted Stone</DisplayName>
+      <DisplayName>Cleaned Stone</DisplayName>
       <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -24,7 +24,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedIron</SubtypeId>
       </Id>
-      <DisplayName>Compacted Iron Ore</DisplayName>
+      <DisplayName>Cleaned Iron Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -42,7 +42,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedNickel</SubtypeId>
       </Id>
-      <DisplayName>Compacted Nickel Ore</DisplayName>
+      <DisplayName>Cleaned Nickel Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ni_nickel.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -60,7 +60,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedCobalt</SubtypeId>
       </Id>
-      <DisplayName>Compacted Cobalt Ore</DisplayName>
+      <DisplayName>Cleaned Cobalt Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Co_cobalt.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -78,7 +78,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedMagnesium</SubtypeId>
       </Id>
-      <DisplayName>Compacted Magnesium Ore</DisplayName>
+      <DisplayName>Cleaned Magnesium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Mg_magnesium.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -96,7 +96,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedSilicon</SubtypeId>
       </Id>
-      <DisplayName>Compacted Silicon Ore</DisplayName>
+      <DisplayName>Cleaned Silicon Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Si_silicon.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -114,7 +114,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedSilver</SubtypeId>
       </Id>
-      <DisplayName>Compacted Silver Ore</DisplayName>
+      <DisplayName>Cleaned Silver Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ag_silver.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -132,7 +132,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedGold</SubtypeId>
       </Id>
-      <DisplayName>Compacted Gold Ore</DisplayName>
+      <DisplayName>Cleaned Gold Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Au_gold.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -150,7 +150,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedPlatinum</SubtypeId>
       </Id>
-      <DisplayName>Compacted Platinum Ore</DisplayName>
+      <DisplayName>Cleaned Platinum Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pt_platinum.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -168,7 +168,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedUranium</SubtypeId>
       </Id>
-      <DisplayName>Compacted Uranium Ore</DisplayName>
+      <DisplayName>Cleaned Uranium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -186,7 +186,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>CompactedIce</SubtypeId>
       </Id>
-      <DisplayName>Compacted Ice</DisplayName>
+      <DisplayName>Cleaned Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
       <Size>
         <X>0.07</X>

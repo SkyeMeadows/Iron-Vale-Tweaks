@@ -7,8 +7,8 @@
 				<TypeId>Refinery</TypeId>
 				<SubtypeId>OreCompactorLarge</SubtypeId>
 			</Id>
-			<DisplayName>Large Ore Compactor</DisplayName>
-			<Description>A production machine that compacts ores into roughly 1/4th their size, increasing their density.</Description>
+			<DisplayName>Large Ore Cleaner</DisplayName>
+			<Description>A production machine that cleans ores, discarding unwated materials to allow the ore to take up less volume.</Description>
 			<Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -60,7 +60,7 @@
 				<Class>CompactedOres</Class>
 			</BlueprintClasses>
 
-			<RefineSpeed>22.5</RefineSpeed>
+			<RefineSpeed>18</RefineSpeed>
             <MaterialEfficiency>1.0</MaterialEfficiency>
 
 			<OreAmountPerPullRequest>5000</OreAmountPerPullRequest>
