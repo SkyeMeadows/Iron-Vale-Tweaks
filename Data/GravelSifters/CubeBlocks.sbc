@@ -16,12 +16,12 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\BasicRefinery.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
-				<Component Subtype="Construction" Count="50" />
-				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="Motor" Count="20" />
-				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="SteelPlate" Count="20" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
@@ -40,7 +40,7 @@
 			<BlockPairName>GravelSifter</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<InventoryMaxVolume>10.0</InventoryMaxVolume>
 			<InventorySize>
@@ -53,13 +53,13 @@
 			<InventoryFillFactorMax>0.9</InventoryFillFactorMax>
 
 			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<OperationalPowerConsumption>0.25</OperationalPowerConsumption>
+			<OperationalPowerConsumption>0.15</OperationalPowerConsumption>
 
 			<BlueprintClasses>
 				<Class>GravelSifting</Class>
 			</BlueprintClasses>
 
-			<RefineSpeed>2</RefineSpeed>
+			<RefineSpeed>1</RefineSpeed>
             <MaterialEfficiency>1.0</MaterialEfficiency>
 
 			<OreAmountPerPullRequest>5000</OreAmountPerPullRequest>
