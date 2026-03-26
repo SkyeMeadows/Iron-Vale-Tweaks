@@ -8,6 +8,12 @@
                 <SubtypeId></SubtypeId>
             </Id>
             <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
+            <InventoryMaxVolume>16</InventoryMaxVolume>
+            <InventorySize>
+                <X>4</X>
+                <Y>4</Y>
+                <Z>4</Z>
+            </InventorySize>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -16,6 +22,12 @@
                 <SubtypeId>OxygenGeneratorSmall</SubtypeId>
             </Id>
             <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
@@ -24,6 +36,12 @@
                 <SubtypeId>LargeBlockOxygenGeneratorLab</SubtypeId>
             </Id>
             <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
+            <InventoryMaxVolume>16</InventoryMaxVolume>
+            <InventorySize>
+                <X>4</X>
+                <Y>4</Y>
+                <Z>4</Z>
+            </InventorySize>
 			<DLC>Fieldwork</DLC>
         </Definition>
 
@@ -33,6 +51,12 @@
                 <SubtypeId>SmallBlockOxygenGeneratorLab</SubtypeId>
             </Id>
             <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
 			<DLC>Fieldwork</DLC>
         </Definition>
 
