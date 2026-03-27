@@ -123,9 +123,9 @@
                 <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="3" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTank_Construction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
             <BlockPairName>IV-SpatialLargeHydrogenTankIndustrial</BlockPairName>
             <MirroringY>Z</MirroringY>
