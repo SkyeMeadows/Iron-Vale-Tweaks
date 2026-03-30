@@ -3,3 +3,4 @@ CubeBlocks_Gyroscope.xml
 CubeBlocks_HydrogenEngines.xml
 CubeBlocks_Production.xml
 CubeBlocks_Thrusters.xml
+CubeBlocks_Warheads.xml
