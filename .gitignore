@@ -1,0 +1,8 @@
+mdk.local.ini
+Content/Data/SBC files can go here
+obj/*
+bin/*
+Place your code files here
+Content/Other content folders
+*/metadata.mod
+*/modinfo.sbmi
