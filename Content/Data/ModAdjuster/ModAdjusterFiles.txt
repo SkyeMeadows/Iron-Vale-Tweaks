@@ -1,4 +1,3 @@
-CubeBlocks_Drills.xml
 CubeBlocks_Gyroscope.xml
 CubeBlocks_HydrogenEngines.xml
 CubeBlocks_Production.xml
