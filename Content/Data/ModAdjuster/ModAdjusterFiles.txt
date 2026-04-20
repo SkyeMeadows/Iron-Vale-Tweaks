@@ -1,3 +1,4 @@
+Blueprints_Rocket.xml
 CubeBlocks_CTC.xml
 CubeBlocks_Gyroscope.xml
 CubeBlocks_HydrogenEngines.xml
