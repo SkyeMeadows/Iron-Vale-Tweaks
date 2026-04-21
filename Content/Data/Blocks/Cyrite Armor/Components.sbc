@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-HardenedPlate</SubtypeId>
+            </Id>
+            <DisplayName>Hardened Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Hardened_Plate.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>45</Mass>
+            <Volume>4</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>300</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>100</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-JumpCatalyst</SubtypeId>
+            </Id>
+            <DisplayName>Jump Catalyst</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Jump_Catalyst.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>2000</Mass>
+            <Volume>400</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>750</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>20</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-GravityConduit</SubtypeId>
+            </Id>
+            <DisplayName>Gravity Conduit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Gravity_Conduit.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>1200</Mass>
+            <Volume>250</Volume>
+            <Model>Models\Components\reactor_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>400</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>80</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-CatalystCapactior</SubtypeId>
+            </Id>
+            <DisplayName>Catalyst Capacitor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Catalyst_Capacitor.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>600</Mass>
+            <Volume>100</Volume>
+            <Model>Models\Components\PowerCellComponent.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>200</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>50</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-SpaceTimeDisruptorComponent</SubtypeId>
+            </Id>
+            <DisplayName>Space-Time Disruptor Component</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Space-Time_Disruptor_Component.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>5000</Mass>
+            <Volume>500</Volume>
+            <Model>Models\Components\radio_communication_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1000</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>200</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-EchoSeal</SubtypeId>
+            </Id>
+            <DisplayName>Echo Seal</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Echo_Seal.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>30</Mass>
+            <Volume>5</Volume>
+            <Model>Models\Components\bulletproof_glass_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>120</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>10</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+        
+    </Components>
+</Definitions>

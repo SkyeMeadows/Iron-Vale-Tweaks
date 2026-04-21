@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClassEntries>
+        <Entry Class="Ingots" BlueprintSubtypeId="IVS-KarnyxiumRefinement" />
+        <Entry Class="Ingots" BlueprintSubtypeId="IVS-CyriteRefinement" />
+
+        <Entry Class="Components" BlueprintSubtypeId="IVS-HardenedPlate" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-JumpCatalyst" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-EchoSeal" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-GravityConduit" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-CatalystCapactior" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-SpaceTimeDisruptorComponent" />
+    </BlueprintClassEntries>
+    
+    <Blueprints>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-KarnyxiumRefinement</SubtypeId>
+            </Id>
+            <DisplayName>Karnyxium Refinement</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Karnyxium" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.001" TypeId="Ingot" SubtypeId="Karnyxium" />
+            </Results>
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-CyriteRefinement</SubtypeId>
+            </Id>
+            <DisplayName>Cyrite Refinement</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Cyrite" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.005" TypeId="Ingot" SubtypeId="Cyrite" />
+            </Results>
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-HardenedPlate</SubtypeId>
+            </Id>
+            <DisplayName>Hardened Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Hardened_Plate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Cyrite" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-HardenedPlate" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-JumpCatalyst</SubtypeId>
+            </Id>
+            <DisplayName>Jump Catalyst</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Jump_Catalyst.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-JumpCatalyst" />
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+         <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-EchoSeal</SubtypeId>
+            </Id>
+            <DisplayName>Echo Seal</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Echo_Seal.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.02" TypeId="Ingot" SubtypeId="Cyrite" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-EchoSeal" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-GravityConduit</SubtypeId>
+            </Id>
+            <DisplayName>Gravity Conduit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Gravity_Conduit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.4" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-GravityConduit" />
+            <BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-CatalystCapactior</SubtypeId>
+            </Id>
+            <DisplayName>Catalyst Capacitor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Catalyst_Capacitor.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-CatalystCapactior" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-SpaceTimeDisruptorComponent</SubtypeId>
+            </Id>
+            <DisplayName>Space-Time Disruptor Component</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Space-Time_Disruptor_Component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="2000" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="500" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="200" TypeId="Ingot" SubtypeId="Platinum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-SpaceTimeDisruptorComponent" />
+            <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+    </Blueprints>
+</Definitions>

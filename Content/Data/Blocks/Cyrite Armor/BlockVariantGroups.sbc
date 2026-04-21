@@ -2,91 +2,91 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup01" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup01" />
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
             <DisplayName>Cyrite Armor Blocks</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorBlock" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlope" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorInvCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorCornerSquare" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorCornerSquareInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorInvCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorCornerSquare" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorCornerSquareInverted" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup02" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup02" />
             <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
             <DisplayName>Cyrite Armor 2x1 Slopes</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlope2Base" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlope2Tip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfArmorBlock" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfSlopeArmorBlock" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfSlopeCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlope2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlope2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfSlopeArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfSlopeCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfCorner" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup03" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup03" />
             <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
             <DisplayName>Cyrite Armor 2x1 Corners</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorCorner2Base" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorCorner2Tip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorInvCorner2Base" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorInvCorner2Tip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfSlopeCornerInverted" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfSlopeInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorInvCorner2Base" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorInvCorner2Tip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfSlopeCornerInverted" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfSlopeInverted" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup04" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup04" />
             <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
             <DisplayName>Cyrite Armor Round</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorRoundSlope" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorRoundCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorRoundCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorRoundSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorRoundCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorRoundCornerInv" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup05" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup05" />
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
             <DisplayName>Cyrite Armor Corners</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopedCornerTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorHalfSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorRaisedSlopedCorner" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSquareSlopedCornerTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSquareSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSquareSlopedCornerTipInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopedCornerBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorHalfSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorRaisedSlopedCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSquareSlopedCornerTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSquareSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSquareSlopedCornerTipInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopedCornerBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopedCorner" />
             </Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DSV-CyriteArmorCubeGroup06" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="IVS-CyriteArmorCubeGroup06" />
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
             <DisplayName>Cyrite Armor Slope Transitions</DisplayName>
             <Description>Armor crafted from Cyrite, this block is much more durable than heavy armor, while weighting only a small amount more.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransitionBase" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransition" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransitionTip" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransitionBaseMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransitionMirrored" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="DSV-LG_CyriteArmorSlopeTransitionTipMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransitionBase" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransition" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransitionTip" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransitionBaseMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransitionMirrored" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="IVS-LG_CyriteArmorSlopeTransitionTipMirrored" />
             </Blocks>
         </BlockVariantGroup>
         

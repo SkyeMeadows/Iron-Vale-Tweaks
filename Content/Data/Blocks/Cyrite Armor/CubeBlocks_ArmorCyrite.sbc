@@ -4,7 +4,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorBlock</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorBlock</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Block</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
@@ -26,10 +26,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="85" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="85" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -55,7 +55,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlope</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlope</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Slope</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_slope.dds</Icon>
@@ -77,10 +77,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="35" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="35" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -108,7 +108,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_corner.dds</Icon>
@@ -129,10 +129,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="20" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="20" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
                 <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -162,7 +162,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorInvCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorInvCorner</SubtypeId>
             </Id>
             <DisplayName>Cyyrite Armor Inv. Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_inv_corner.dds</Icon>
@@ -186,10 +186,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="55" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="55" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -222,7 +222,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorRoundSlope</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorRoundSlope</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Round Slope</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
@@ -243,10 +243,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="55" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="55" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -274,7 +274,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorRoundCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorRoundCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Round Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorCorner.dds</Icon>
@@ -295,10 +295,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="25" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="25" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
                 <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -328,7 +328,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorRoundCornerInv</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorRoundCornerInv</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Round Inv. Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorInvCorner.dds</Icon>
@@ -352,10 +352,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="55" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="55" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -387,7 +387,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlope2Base</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlope2Base</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Slope Base</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
@@ -409,10 +409,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="65" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="65" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_2.mwm" />
@@ -441,7 +441,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlope2Tip</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlope2Tip</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Slope Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Tip.dds</Icon>
@@ -463,10 +463,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="30" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="30" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -496,7 +496,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorCorner2Base</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorCorner2Base</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Corner Base</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
@@ -517,10 +517,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="55" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="55" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -551,7 +551,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorCorner2Tip</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Corner Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Tip.dds</Icon>
@@ -572,10 +572,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="12" />
-                <Component Subtype="DSV-HardenedPlate" Count="3" />
+                <Component Subtype="IVS-HardenedPlate" Count="12" />
+                <Component Subtype="IVS-HardenedPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -606,7 +606,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorInvCorner2Base</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorInvCorner2Base</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Corner Inv. Base</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Base.dds</Icon>
@@ -629,10 +629,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="65" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="65" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -665,7 +665,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorInvCorner2Tip</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorInvCorner2Tip</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor 2x1 Corner Inv. Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyInvCorner2x1x1Tip.dds</Icon>
@@ -689,10 +689,10 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="75" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="75" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
                 <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -728,7 +728,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorCornerSquare</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorCornerSquare</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Corner Square</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquare.dds</Icon>
@@ -761,10 +761,10 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorCornerSquare</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -792,7 +792,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorCornerSquareInverted</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorCornerSquareInverted</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Corner Square Inverted</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyCornerSquareInverted.dds</Icon>
@@ -831,10 +831,10 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="75" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="75" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorCornerSquareInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -862,7 +862,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfCorner.dds</Icon>
@@ -894,10 +894,10 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorHalfCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -926,7 +926,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopeCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopeCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Slope Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCorner.dds</Icon>
@@ -988,7 +988,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopeCornerInverted</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopeCornerInverted</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Slope Inv. Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeCornerInverted.dds</Icon>
@@ -1032,10 +1032,10 @@
                 <MountPoint EndX="0.5" EndY="0.6" Side="Left" StartX="0.4" StartY="0.5"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="75" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="75" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorHalfSlopeCornerInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1063,7 +1063,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopedCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Sloped Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCorner.dds</Icon>
@@ -1097,10 +1097,10 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Bottom" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="30" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="30" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorHalfSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1128,7 +1128,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopedCornerBase</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Sloped Corner Base</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopedCornerBase.dds</Icon>
@@ -1169,10 +1169,10 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="35" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="35" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorHalfSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1200,7 +1200,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopeInverted</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopeInverted</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Inv. Half Slope</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyHalfSlopeInverted.dds</Icon>
@@ -1242,10 +1242,10 @@
                 <MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="70" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="70" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorHalfSlopeInverted</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1273,7 +1273,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlopedCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Sloped Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCorner.dds</Icon>
@@ -1314,10 +1314,10 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="45" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="45" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorSlopedCorner</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1345,7 +1345,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlopedCornerBase</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlopedCornerBase</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Sloped Corner Base</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerBase.dds</Icon>
@@ -1386,10 +1386,10 @@
                 <MountPoint EndX="1.0" EndY="1.0" Side="Top" StartX="0.5" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="75" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="75" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorSlopedCornerBase</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1417,7 +1417,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorSlopedCornerTip</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorSlopedCornerTip</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Sloped Corner Tip</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
@@ -1451,10 +1451,10 @@
                 <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.8" StartY="0.0"/>
             </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BlockPairName>CyriteArmorSlopedCornerTip</BlockPairName>
             <PhysicsOption>Convex</PhysicsOption>
             <EdgeType>Heavy</EdgeType>
@@ -1483,7 +1483,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorRaisedSlopedCorner</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorRaisedSlopedCorner</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Raised Slope Corner</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\HeavyRaisedSlopedCorner.dds</Icon>
@@ -1524,10 +1524,10 @@
                     <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
                 </MountPoints>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="75" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="75" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <Variants>
                 <Variant Color="Red" Suffix="_red" />
                 <Variant Color="Yellow" Suffix="_yellow" />
@@ -1551,7 +1551,7 @@
             <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransition</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransition</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransition.dds</Icon>
@@ -1590,10 +1590,10 @@
             <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
         </MountPoints>  
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="45" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="45" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1611,13 +1611,13 @@
       <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
-      <MirroringBlock>DSV-LG_CyriteArmorSlopeTransitionMirrored</MirroringBlock>
+      <MirroringBlock>IVS-LG_CyriteArmorSlopeTransitionMirrored</MirroringBlock>
       <PCUConsole>2</PCUConsole>
     </Definition>
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransitionBase</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransitionBase</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition Base</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBase.dds</Icon>
@@ -1658,10 +1658,10 @@
             <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
         </MountPoints> 
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="65" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="65" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1679,13 +1679,13 @@
       <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
-        <MirroringBlock>DSV-LG_CyriteArmorSlopeTransitionBaseMirrored</MirroringBlock>
+        <MirroringBlock>IVS-LG_CyriteArmorSlopeTransitionBaseMirrored</MirroringBlock>
       <PCUConsole>2</PCUConsole>
     </Definition>
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransitionBaseMirrored</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransitionBaseMirrored</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition Base Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionBaseMirrored.dds</Icon>
@@ -1726,10 +1726,10 @@
             <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
         </MountPoints>  
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="65" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="65" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1747,13 +1747,13 @@
       <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
-      <MirroringBlock>DSV-LG_CyriteArmorSlopeTransitionBase</MirroringBlock>
+      <MirroringBlock>IVS-LG_CyriteArmorSlopeTransitionBase</MirroringBlock>
       <PCUConsole>2</PCUConsole>
     </Definition>
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransitionMirrored</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransitionMirrored</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionMirrored.dds</Icon>
@@ -1792,10 +1792,10 @@
             <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
         </MountPoints>  
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="45" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="45" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1813,13 +1813,13 @@
       <PCU>1</PCU>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
-        <MirroringBlock>DSV-LG-CyriteArmorSlopeTransition</MirroringBlock>
+        <MirroringBlock>IVS-LG-CyriteArmorSlopeTransition</MirroringBlock>
       <PCUConsole>2</PCUConsole>
     </Definition>
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransitionTip</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransitionTip</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition Tip</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTip.dds</Icon>
@@ -1857,10 +1857,10 @@
             <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.1" />
         </MountPoints>  
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="20" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="20" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1876,7 +1876,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
       <PCU>1</PCU>
-        <MirroringBlock>DSV-LG_CyriteArmorSlopeTransitionTipMirrored</MirroringBlock>
+        <MirroringBlock>IVS-LG_CyriteArmorSlopeTransitionTipMirrored</MirroringBlock>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
       <PCUConsole>2</PCUConsole>
@@ -1885,7 +1885,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSlopeTransitionTipMirrored</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSlopeTransitionTipMirrored</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Slope Transition Tip Mirrored</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySlopeTransitionTipMirrored.dds</Icon>
@@ -1923,10 +1923,10 @@
             <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
         </MountPoints>    
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="20" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="20" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -1942,7 +1942,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
       <PCU>1</PCU>
-        <MirroringBlock>DSV-LG_CyriteArmorSlopeTransitionTip</MirroringBlock>
+        <MirroringBlock>IVS-LG_CyriteArmorSlopeTransitionTip</MirroringBlock>
         <MirroringX>Y</MirroringX>
         <MirroringY>X</MirroringY>
       <PCUConsole>2</PCUConsole>
@@ -1951,7 +1951,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSquareSlopedCornerBase</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSquareSlopedCornerBase</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Square Sloped Corner Base</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerBase.dds</Icon>
@@ -1992,10 +1992,10 @@
             <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
         </MountPoints>
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="65" />
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="65" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -2019,7 +2019,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSquareSlopedCornerTip</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSquareSlopedCornerTip</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Square Sloped Corner Tip</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTip.dds</Icon>
@@ -2056,10 +2056,10 @@
             <MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.8" StartY="0.0"/>
         </MountPoints>    
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="15" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="15" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -2083,7 +2083,7 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>DSV-LG_CyriteArmorSquareSlopedCornerTipInv</SubtypeId>
+        <SubtypeId>IVS-LG_CyriteArmorSquareSlopedCornerTipInv</SubtypeId>
       </Id>
       <DisplayName>Cyrite Armor Sqaure Sloped Inv. Corner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HeavySquareSlopedCornerTipInv.dds</Icon>
@@ -2124,10 +2124,10 @@
             <MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
         </MountPoints>
       <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="35" />
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="35" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
       <Variants>
         <Variant Color="Red" Suffix="_red" />
         <Variant Color="Yellow" Suffix="_yellow" />
@@ -2151,7 +2151,7 @@
     <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfArmorBlock</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfArmorBlock</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Block</DisplayName>
             <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSquareSlab.dds</Icon>
@@ -2175,10 +2175,10 @@
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="20" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="20" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
@@ -2205,7 +2205,7 @@
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
-                <SubtypeId>DSV-LG_CyriteArmorHalfSlopeArmorBlock</SubtypeId>
+                <SubtypeId>IVS-LG_CyriteArmorHalfSlopeArmorBlock</SubtypeId>
             </Id>
             <DisplayName>Cyrite Armor Half Slope</DisplayName>
             <Icon>Textures/GUI/Icons/Cubes/HeavyArmorSlopeSlab.dds</Icon>
@@ -2228,10 +2228,10 @@
             <GuiVisible>false</GuiVisible>
             <PhysicsOption>Convex</PhysicsOption>
             <Components>
-                <Component Subtype="DSV-HardenedPlate" Count="10" />
-                <Component Subtype="DSV-HardenedPlate" Count="5" />
+                <Component Subtype="IVS-HardenedPlate" Count="10" />
+                <Component Subtype="IVS-HardenedPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="DSV-HardenedPlate" Index="0" />
+            <CriticalComponent Subtype="IVS-HardenedPlate" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
