@@ -4,6 +4,7 @@
         <Entry Class="Ingots" BlueprintSubtypeId="IVS-KarnyxiumRefinement" />
         <Entry Class="Ingots" BlueprintSubtypeId="IVS-CyriteRefinement" />
 
+        <Entry Class="Components" BlueprintSubtypeId="IVS-KarnyxiumCore" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-HardenedPlate" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-JumpCatalyst" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-EchoSeal" />
@@ -44,6 +45,24 @@
                 <Item Amount="0.005" TypeId="Ingot" SubtypeId="Cyrite" />
             </Results>
             <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-KarnyxiumCore</SubtypeId>
+            </Id>
+            <DisplayName>Karynxium Core</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Jump_Catalyst.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-KarnyxiumCore" />
+            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
         </Blueprint>
 
         <Blueprint>
