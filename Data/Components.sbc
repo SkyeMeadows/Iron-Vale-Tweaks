@@ -233,6 +233,35 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-AdvancedDetectionComponent</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Detection Component</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Advanded_Detection_Component.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>2000</Mass>
+            <Volume>100</Volume>
+            <Model>Models\Components\radio_communication_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>600</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>100</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
         
     </Components>
 </Definitions>

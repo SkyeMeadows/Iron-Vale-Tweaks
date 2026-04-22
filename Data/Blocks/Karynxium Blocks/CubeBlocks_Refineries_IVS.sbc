@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <CubeBlocks>        
+    <CubeBlocks>
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>IV-HyperLargeRefinery</SubtypeId>
+                <SubtypeId>IVS-LG_Refinery_Overclocked</SubtypeId>
             </Id>
-            <DisplayName>Hyper Refinery</DisplayName>
+            <DisplayName>Overclocked Refinery</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
-            <Description>A Refinery that processes all ores at a much higher rate, at the expense of massively increased power draw.</Description>
+            <Description>This Refinery can refine all ores and does so at a higher speed while costing more power.</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="1200" />
-                <Component Subtype="Construction" Count="60" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Motor" Count="40" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="PowerCell" Count="50" />
-                <Component Subtype="Superconductor" Count="200" />
-                <Component Subtype="Computer" Count="80" />
-                <Component Subtype="SteelPlate" Count="150" />
+                <Component Subtype="SteelPlate" Count="1100" />
+                <Component Subtype="IVS-KarnyxiumCore" Count="1" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <Center x="1" y="0" z="1" />
@@ -41,11 +40,11 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HyperRefinery</BlockPairName>
+            <BlockPairName>Refinery_Overclocked</BlockPairName>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>150</BuildTimeSeconds>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>12.5</InventoryMaxVolume>
+            <InventoryMaxVolume>7.5</InventoryMaxVolume>
             <InventorySize>
                 <X>2.5</X>
                 <Y>2.5</Y>
@@ -56,13 +55,13 @@
             <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
 
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-            <OperationalPowerConsumption>30</OperationalPowerConsumption>
+            <OperationalPowerConsumption>4.5</OperationalPowerConsumption>
             <BlueprintClasses>
                 <Class>Ingots</Class>
             </BlueprintClasses>
-            <RefineSpeed>4.5</RefineSpeed>
-            <MaterialEfficiency>1.0</MaterialEfficiency>
-            <OreAmountPerPullRequest>4000</OreAmountPerPullRequest>
+            <RefineSpeed>2.6</RefineSpeed>
+            <MaterialEfficiency>1</MaterialEfficiency>
+            <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <Center x="1" y="0" z="0" />
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -77,32 +76,30 @@
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-            <AllowSelfPulling>false</AllowSelfPulling>
         </Definition>
-
+        
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>IV-HyperLargeRefineryIndustrial</SubtypeId>
+                <SubtypeId>IVS-LG_Refinery_Overclocked_Industrial</SubtypeId>
             </Id>
-            <DisplayName>Hyper Industrial Refinery</DisplayName>
+            <DisplayName>Industrial Overclocked Refinery</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\AdvancedRefinery.dds</Icon>
-            <Description>A Refinery that processes all ores at a much higher rate, at the expense of massively increased power draw.</Description>
+            <Description>This Refinery can refine all ores and does so at a higher speed while costing more power.</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="2" y="4" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="1200" />
-                <Component Subtype="Construction" Count="60" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Motor" Count="40" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="PowerCell" Count="50" />
-                <Component Subtype="Superconductor" Count="200" />
-                <Component Subtype="Computer" Count="80" />
-                <Component Subtype="SteelPlate" Count="150" />
+                <Component Subtype="SteelPlate" Count="1100" />
+                <Component Subtype="IVS-KarnyxiumCore" Count="1" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <Center x="1" y="0" z="1" />
@@ -137,11 +134,11 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HyperRefineryIndustrial</BlockPairName>
+            <BlockPairName>Refinery_Overclocked_Industrial</BlockPairName>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>150</BuildTimeSeconds>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>12.5</InventoryMaxVolume>
+            <InventoryMaxVolume>7.5</InventoryMaxVolume>
             <InventorySize>
                 <X>2.5</X>
                 <Y>2.5</Y>
@@ -152,13 +149,13 @@
             <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
 
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-            <OperationalPowerConsumption>30</OperationalPowerConsumption>
+            <OperationalPowerConsumption>4.5</OperationalPowerConsumption>
             <BlueprintClasses>
                 <Class>Ingots</Class>
             </BlueprintClasses>
-            <RefineSpeed>4.5</RefineSpeed>
-            <MaterialEfficiency>1.0</MaterialEfficiency>
-            <OreAmountPerPullRequest>4000</OreAmountPerPullRequest>
+            <RefineSpeed>2.6</RefineSpeed>
+            <MaterialEfficiency>1</MaterialEfficiency>
+            <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <Center x="1" y="0" z="0" />
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -174,7 +171,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
             <DLC>HeavyIndustry</DLC>
-            <AllowSelfPulling>false</AllowSelfPulling>
         </Definition>
+
     </CubeBlocks>
 </Definitions>

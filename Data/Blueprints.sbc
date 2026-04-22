@@ -11,6 +11,7 @@
         <Entry Class="Components" BlueprintSubtypeId="IVS-GravityConduit" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-CatalystCapactior" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-SpaceTimeDisruptorComponent" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-AdvancedDetectionComponent" />
     </BlueprintClassEntries>
     
     <Blueprints>
@@ -26,9 +27,9 @@
                 <Item Amount="1" TypeId="Ore" SubtypeId="Karnyxium" />
             </Prerequisites>
             <Results>
-                <Item Amount="0.001" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="0.00005" TypeId="Ingot" SubtypeId="Karnyxium" />
             </Results>
-            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -42,9 +43,9 @@
                 <Item Amount="1" TypeId="Ore" SubtypeId="Cyrite" />
             </Prerequisites>
             <Results>
-                <Item Amount="0.005" TypeId="Ingot" SubtypeId="Cyrite" />
+                <Item Amount="0.0005" TypeId="Ingot" SubtypeId="Cyrite" />
             </Results>
-            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -182,6 +183,25 @@
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="IVS-SpaceTimeDisruptorComponent" />
             <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-AdvancedDetectionComponent</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Detection Component</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Advanded_Detection_Component.dds</Icon>
+            <Prerequisites>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Cyrite" />
+                <Item Amount="2000" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="400" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-AdvancedDetectionComponent" />
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
             <IsPrimary>true</IsPrimary>
         </Blueprint>
 
