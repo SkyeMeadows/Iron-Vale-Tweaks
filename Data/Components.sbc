@@ -262,6 +262,93 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-BasicGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Basic Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>20</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>50</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-StandardGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Standard Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>30</Mass>
+            <Volume>3</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>50</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>IVS-AdvancedGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>50</Mass>
+            <Volume>5</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>50</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>50</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
         
     </Components>
 </Definitions>

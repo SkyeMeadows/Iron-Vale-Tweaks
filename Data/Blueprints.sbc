@@ -12,6 +12,11 @@
         <Entry Class="Components" BlueprintSubtypeId="IVS-CatalystCapactior" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-SpaceTimeDisruptorComponent" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-AdvancedDetectionComponent" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-BasicGridCoreProcessingUnit" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-StandardGridCoreProcessingUnit" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-AdvancedGridCoreProcessingUnit" />
+
+        <Entry Class="SimpleComponents" BlueprintSubtypeId="IVS-BasicGridCoreProcessingUnit" />
     </BlueprintClassEntries>
     
     <Blueprints>
@@ -176,7 +181,7 @@
             <DisplayName>Space-Time Disruptor Component</DisplayName>
             <Icon>Textures\GUI\Icons\component\Space-Time_Disruptor_Component.dds</Icon>
             <Prerequisites>
-                <Item Amount="100" TypeId="Ingot" SubtypeId="Karnyxium" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Karnyxium" />
                 <Item Amount="2000" TypeId="Ingot" SubtypeId="Silicon" />
                 <Item Amount="500" TypeId="Ingot" SubtypeId="Gold" />
                 <Item Amount="200" TypeId="Ingot" SubtypeId="Platinum" />
@@ -202,6 +207,67 @@
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="IVS-AdvancedDetectionComponent" />
             <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-BasicGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Basic Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-BasicGridCoreProcessingUnit" />
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-StandardGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Standard Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="75" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-StandardGridCoreProcessingUnit" />
+            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IVS-AdvancedGridCoreProcessingUnit</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Grid Core Processing Unit</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Grid_Core_Processing_Unit.dds</Icon>
+            <Prerequisites>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="35" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="200" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Cyrite" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Karnyxium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="IVS-AdvancedGridCoreProcessingUnit" />
+            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
             <IsPrimary>true</IsPrimary>
         </Blueprint>
 
