@@ -8,7 +8,7 @@
       </Id>
       <DisplayName>Starter Rover</DisplayName>
       <Icon></Icon>
-      <CooldownSeconds>300</CooldownSeconds>
+      <CooldownSeconds>0</CooldownSeconds>
       <Prefab>Explorer-MK4</Prefab>
       
       <PlanetDeployAltitude>15</PlanetDeployAltitude>
@@ -27,7 +27,7 @@
       </Id>
       <DisplayName>Starter Pod</DisplayName>
       <Icon></Icon>
-      <CooldownSeconds>300</CooldownSeconds>
+      <CooldownSeconds>0</CooldownSeconds>
       <Prefab>Explorer-MK5</Prefab>
       
       <UseForSpace>true</UseForSpace>
