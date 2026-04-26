@@ -60,5 +60,13 @@
 			<DLC>Fieldwork</DLC>
         </Definition>
 
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>Blast Furnace</SubtypeId>
+            </Id>
+            <MaterialEfficiency>0.85</MaterialEfficiency>
+        </Definition>
+
     </CubeBlocks>
 </Definitions>
