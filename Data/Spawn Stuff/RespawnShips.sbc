@@ -11,8 +11,9 @@
       <CooldownSeconds>300</CooldownSeconds>
       <Prefab>Explorer-MK4</Prefab>
       
-      <PlanetDeployAltitude>100</PlanetDeployAltitude>
+      <PlanetDeployAltitude>15</PlanetDeployAltitude>
       <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
 
       <InitialLinearVelocity x="0" y="-5" z="0" />
       <InitialAngularVelocity x="0" y="0.5" z="0" />
