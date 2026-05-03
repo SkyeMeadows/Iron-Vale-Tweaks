@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+	
+  <!-- Counters -->
+
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_Ammunition_35mmFlare</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>60</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>500</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>0</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+        <EndOfLifeSound>DesignatorMuteSHOT</EndOfLifeSound>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>1</MissileMass>
+        <MissileExplosionRadius>1</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_35mmFlare.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>60</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>0</MissileExplosionDamage>
+        <MissileHealthPool>3</MissileHealthPool>
+        <MissileTrailEffect>Smoke_Firework</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <MissileMinRicochetAngle>0</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>90</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>1</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>1</MissileRicochetDamage>
+        <ExplosionFlags>AFFECT_VOXELS APPLY_FORCE_AND_DAMAGE CREATE_DECALS CREATE_SHRAPNELS APPLY_DEFORMATION FORCE_CUSTOM_END_OF_LIFE_EFFECT</ExplosionFlags>
+      </MissileProperties>
+    </Ammo>
+
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_Ammunition_190mmFlare</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>50</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>600</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>0</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+        <EndOfLifeSound>DesignatorMuteSHOT</EndOfLifeSound>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>1</MissileMass>
+        <MissileExplosionRadius>1</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_190mmFlare.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>50</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>0</MissileExplosionDamage>
+        <MissileHealthPool>10</MissileHealthPool>
+        <MissileTrailEffect>Smoke_Firework</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <MissileMinRicochetAngle>0</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>90</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>1</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>1</MissileRicochetDamage>
+        <ExplosionFlags>AFFECT_VOXELS APPLY_FORCE_AND_DAMAGE CREATE_DECALS CREATE_SHRAPNELS APPLY_DEFORMATION FORCE_CUSTOM_END_OF_LIFE_EFFECT</ExplosionFlags>
+      </MissileProperties>
+    </Ammo>
+	
+  <!-- Ammos -->
+   
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_20x110mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>475</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>850</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>1</ProjectileCount>
+        <ProjectileTrailScale>0.4</ProjectileTrailScale>
+		    <ProjectileTrailColor x="1.000" y="0.8" z="0.75" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>80</ProjectileMassDamage>
+        <ProjectileHealthDamage>20</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_30x145mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>450</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>1200</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>1</ProjectileCount>
+        <ProjectileTrailScale>0.3</ProjectileTrailScale>
+		    <ProjectileTrailColor x="1.000" y="0.65" z="0.45" />
+        <ProjectileHitImpulse>3</ProjectileHitImpulse>
+        <ProjectileMassDamage>120</ProjectileMassDamage>
+        <ProjectileHealthDamage>48</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_43x307mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>425</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>3000</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>1</ProjectileCount>
+        <ProjectileTrailScale>0.3</ProjectileTrailScale>
+		    <ProjectileTrailColor x="1.000" y="0.7" z="0.55" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>160</ProjectileMassDamage>
+        <ProjectileHealthDamage>84</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_60x470mmAmmoBox</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>350</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>5000</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>1</ProjectileCount>
+        <ProjectileTrailScale>0.6</ProjectileTrailScale>
+		    <ProjectileTrailColor x="1.000" y="0.1" z="0.01" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>250</ProjectileMassDamage>
+        <ProjectileHealthDamage>96</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_80mmShellFlak</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>350</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>20000</BackkickForce>
+        <PhysicalMaterial>MediumShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>31</MissileMass>
+        <MissileExplosionRadius>7</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_80mmShell_Flight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>350</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>100</MissileExplosionDamage>
+        <MissileTrailEffect>Ace_Tracer_80mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>0</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+   
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_80mmShellFlak_Shrapnel</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>100</MaxTrajectory>
+        <BackkickForce>850</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>1</ProjectileCount>
+        <ProjectileTrailScale>0.2</ProjectileTrailScale>
+		    <ProjectileTrailColor x="0.5" y="0.3" z="0.1" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>40</ProjectileMassDamage>
+        <ProjectileHealthDamage>20</ProjectileHealthDamage>
+        <ProjectileTrailProbability>0.25</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_100mmRocket</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>280</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1400</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>0.2</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>25</MissileMass>
+        <MissileExplosionRadius>1</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_100mmRocket.mwm</MissileModelName>
+        <MissileAcceleration>200</MissileAcceleration>
+        <MissileInitialSpeed>50</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>200</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>70</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>89</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.1</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>0.4</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>20</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_150mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>350</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1600</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>65000</BackkickForce>
+        <PhysicalMaterial>MediumShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>40</MissileMass>
+        <MissileExplosionRadius>2</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_150mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>350</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>530</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_150mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>200</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_BreakshotShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>440</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1200</MaxTrajectory>
+        <BackkickForce>28000</BackkickForce>
+        <PhysicalMaterial>Ace_MaterialProperty_ExplosiveTiny</PhysicalMaterial>
+        <EndOfLifeEffect>Ace_Particle_ExplosionTiny</EndOfLifeEffect>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileCount>13</ProjectileCount>
+        <ProjectileTrailScale>0.8</ProjectileTrailScale>
+		    <ProjectileTrailColor x="1.000" y="0.7" z="0.2" />
+        <ProjectileHitImpulse>5</ProjectileHitImpulse>
+        <ProjectileMassDamage>210</ProjectileMassDamage>
+        <ProjectileHealthDamage>90</ProjectileHealthDamage>
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_Ammunition_209mmBomb</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>10000</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>150.5</MissileMass>
+        <MissileExplosionRadius>7</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_209mmBomb_Deployed.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>0</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>5000</MissileExplosionDamage>
+        <MissileTrailEffect>null</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>80</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>90</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.75</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>1000</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_220mmBurstMissile</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>250</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>1600</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>15</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>40</MissileMass>
+        <MissileExplosionRadius>5</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\220mmBurstMissile.mwm</MissileModelName>
+        <MissileAcceleration>200</MissileAcceleration>
+        <MissileInitialSpeed>105</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>340</MissileExplosionDamage>
+        <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.15</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>0.45</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>200</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_300mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>460</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>300000</BackkickForce>
+        <PhysicalMaterial>LargeShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>90</MissileMass>
+        <MissileExplosionRadius>3</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_300mmShell_Flight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>460</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>2100</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_300mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>800</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_330mmTorpedo</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>180</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>0</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>90</MissileMass>
+        <MissileExplosionRadius>6</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_330mmTorpedo.mwm</MissileModelName>
+        <MissileAcceleration>20</MissileAcceleration>
+        <MissileInitialSpeed>105</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>3000</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet  -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.15</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>0.45</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>200</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_400mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>410</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>400000</BackkickForce>
+        <PhysicalMaterial>LargeShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>140</MissileMass>
+        <MissileExplosionRadius>4</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_400mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>410</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>4400</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_400mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>1500</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_640mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>380</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>500000</BackkickForce>
+        <PhysicalMaterial>LargeShell</PhysicalMaterial>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>140</MissileMass>
+        <MissileExplosionRadius>5</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_640mmShell_Flight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>380</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>8600</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_640mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>2400</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_800mmTorpedoStrike</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>150</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>2000</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>1000</MissileMass>
+        <MissileExplosionRadius>8</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_800mmTorpedoStrike.mwm</MissileModelName>
+        <MissileAcceleration>20</MissileAcceleration>
+        <MissileInitialSpeed>105</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>10700</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>30</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.45</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>0.9</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>1400</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_1000mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>420</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>900000</BackkickForce>
+        <PhysicalMaterial>LargeShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>430</MissileMass>
+        <MissileExplosionRadius>7</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_1000mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>420</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>11500</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_1000mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>4500</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+	
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Ace_1500mmShell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>340</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>1600000</BackkickForce>
+        <PhysicalMaterial>LargeShell</PhysicalMaterial>
+        <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>900</MissileMass>
+        <MissileExplosionRadius>8</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Ace_Ammunition_1500mmShellFlight.mwm</MissileModelName>
+        <MissileAcceleration>0</MissileAcceleration>
+        <MissileInitialSpeed>340</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>21000</MissileExplosionDamage>
+        <MissileHealthPool>0</MissileHealthPool>
+        <MissileTrailEffect>Ace_Tracer_1500mmShell</MissileTrailEffect>
+        <MissileGravityEnabled>true</MissileGravityEnabled>
+        <!-- Ricochet -->
+        <MissileMinRicochetAngle>60</MissileMinRicochetAngle>
+        <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+        <MissileMinRicochetProbability>0.25</MissileMinRicochetProbability>
+        <MissileMaxRicochetProbability>1.0</MissileMaxRicochetProbability>
+        <MissileRicochetDamage>6800</MissileRicochetDamage>
+      </MissileProperties>
+    </Ammo>
+
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+        <Id>
+            <TypeId>AmmoDefinition</TypeId>
+            <SubtypeId>LargeRailgunSlug</SubtypeId>
+        </Id>
+        <BasicProperties>
+            <DesiredSpeed>2000</DesiredSpeed>
+            <SpeedVariance>0</SpeedVariance>
+            <MaxTrajectory>2000</MaxTrajectory>
+            <IsExplosive>true</IsExplosive>
+            <BackkickForce>120000</BackkickForce>
+            <PhysicalMaterial>LargeShell</PhysicalMaterial>
+            <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+            <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+        </BasicProperties>
+        <MissileProperties>
+            <MissileMass>2000</MissileMass>
+            <MissileExplosionRadius>1</MissileExplosionRadius>
+            <MissileModelName>Models\Weapons\RailgunAmmoLarge.mwm</MissileModelName>
+            <MissileAcceleration>0</MissileAcceleration>
+            <MissileInitialSpeed>2000</MissileInitialSpeed>
+            <MissileSkipAcceleration>false</MissileSkipAcceleration>
+            <MissileExplosionDamage>0</MissileExplosionDamage>
+            <MissileHealthPool>50000</MissileHealthPool>
+            <MissileTrailEffect>RailGunTrail</MissileTrailEffect>
+            <MissileGravityEnabled>true</MissileGravityEnabled>
+        </MissileProperties>
+    </Ammo>
+
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+        <Id>
+            <TypeId>AmmoDefinition</TypeId>
+            <SubtypeId>SmallRailgunSlug</SubtypeId>
+        </Id>
+        <BasicProperties>
+            <DesiredSpeed>1000</DesiredSpeed>
+            <SpeedVariance>0</SpeedVariance>
+            <MaxTrajectory>1400</MaxTrajectory>
+            <IsExplosive>true</IsExplosive>
+            <BackkickForce>30000</BackkickForce>
+            <PhysicalMaterial>MediumShell</PhysicalMaterial>
+            <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+            <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+        </BasicProperties>
+        <MissileProperties>
+            <MissileMass>500</MissileMass>
+            <MissileExplosionRadius>0</MissileExplosionRadius>
+            <MissileModelName>Models\Weapons\RailgunAmmo.mwm</MissileModelName>
+            <MissileAcceleration>0</MissileAcceleration>
+            <MissileInitialSpeed>1000</MissileInitialSpeed>
+            <MissileSkipAcceleration>false</MissileSkipAcceleration>
+            <MissileExplosionDamage>0</MissileExplosionDamage>
+            <MissileHealthPool>8000</MissileHealthPool>
+            <MissileTrailEffect>RailGunTrailSmall</MissileTrailEffect>
+            <MissileGravityEnabled>true</MissileGravityEnabled>
+        </MissileProperties>
+    </Ammo>
+ 
+  </Ammos>
+</Definitions>

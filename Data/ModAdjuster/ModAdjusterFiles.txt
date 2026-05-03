@@ -1,3 +1,5 @@
+AWP_Ammos.xml
+AWP_CubeBlocks.xml
 Blueprints_Rocket.xml
 CubeBlocks_CTC.xml
 CubeBlocks_Drills.xml

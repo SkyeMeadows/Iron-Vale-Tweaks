@@ -1,0 +1,510 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+
+		<!-- 20mm PDG LG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_20PDG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 20mm PDG LG Elevated -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_20PDG_Elevated</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 20mm PDG SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_20PDG_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 20mm Casemate -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_20mmCasemate</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 30mm Chaingun -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_30mmChaingun_Var1_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 30mm Chaingun - Inverted -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_30Chaingun_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 30mm Storm Cannon -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_30StormCannon</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 30mm Storm Cannon SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_30StormCannon_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- Large-Grid Autocannon -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_AutocannonLG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 43mm Rotary Autocannon -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_43RAC</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 43mm RAC SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_43RAC_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 60mm Heavy Autocannon -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_60mmAutocannon</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 60mm Heavy Autocannon Centered -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_60mmAutocannon_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 80mm Flak Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_80mmFlakTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 80mm Flak Turret SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_80mmFlakTurret_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 80mm Flak Turret Octuple -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_80mmFlakOctuple</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 80mm Flak Turret Octuple 3x2 -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_80mmFlakOctuple_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 80mm Flak Turret Octuple 3x3 -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_80mmFlakOctuple_Var2</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 100mm Rocket Artillery System -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_100mmRocketTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 100mm Rocket Artillery System, Flat Base -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_100mmRocketTurret_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 100mm Rocket Artillery System, Flat Base Centered -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_100mmRocketTurret_Var2</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 100mm Rocket Artillery System SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_100mmRocketTurret_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 150mm Dual Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_150mmArtillery</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 150mm Tank Gun SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_150mmTankGun_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 150mm Dual Tank Gun SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_150mmTankGunDual_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 150mm Sextuple Battery -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_150mmHex</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- Breakshot Scattergun Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_BreakshotScattergun</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- Breakshot Scattergun Turret Centered -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeGatlingTurret</TypeId>
+				<SubtypeId>Ace_Turret_BreakshotScattergun_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 220mm Missile Battery -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_220mmMissileBattery</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 220mm Missile Battery SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_220mmMissileBattery_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Striker Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmStrikerTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Tank Destroyer Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmTankDestroyer_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Paladin -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmPaladin_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Dual, 2x2 -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmDualTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Dual, 3x2 -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmDualTurret_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Dual, 3x3 -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmDualTurret_Var2</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Ballista Turret Brock Version -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmBallistaTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 300mm Ballista Turret OG Version -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_300mmBallistaTurret_Var1</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 330mm Torpedo Turret -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_330mmTorpedoTurret</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Siege -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmSiege</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Casemate -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmBlister</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Twin Casemate -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmCasemateTwin</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Assault -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmAssault</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Triple-Barrel Demolisher -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmDemolisher</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Vanquisher -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmVanquisher</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 400mm Endbringer -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_400mmEndbringer</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 640mm Onager -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_640mmOnager</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 640mm Ironfist -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_640mmIronfist</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 640mm Gatekeeper Battery -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_640mmGatekeeper</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 640mm Hex -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_640mmHex</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 1000mm Casemate -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_1000mmCasemate</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 1000mm Artillery Lance -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_1000mmArtilleryLance</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 1500mm Macro Battery -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_1500mmMacro</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- 1500mm Archon Battery -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_1500mmQuad</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- Railgun Turret Small Sabot -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_RailgunSmallCal</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+		<!-- Railgun Turret Small Sabot SG -->
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>Ace_Turret_RailgunSmallCal_SG</SubtypeId>
+			</Id>
+			<MaxRangeMeters>800</MaxRangeMeters>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>
