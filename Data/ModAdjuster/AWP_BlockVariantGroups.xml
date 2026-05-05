@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<BlockVariantGroups>
+	
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_1500mm" />
+			<Icon>Textures\GUI\Icons\Cubes\1500mmMacro_Icon.png</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Insignia\Sovus.png</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="Ace_Turret_1500mmMacro" />
+
+            </Blocks>
+       </BlockVariantGroup>
+	   
+	   <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ace_Group_Progression_AWP" />
+			<Icon>Textures\GUI\Icons\Cubes\ProgressionTerminal_Icon.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Insignia\Sovus.png</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Description_Assembler</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Ace_Assembler_ProgressionTerminal_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_TerminalUnlock_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_FlareLaunchers_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_20mmWeapons_AWP" />
+                <!-- <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_25mmWeapons_AWP" /> -->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_30mmSimple_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_30mmCoaxial_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_30mmFixedGun_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_30mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_AutocannonLarge_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_43mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_60mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_80mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_100mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_150mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_150mmWeaponsHeavy_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_220mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_300mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_330mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_400mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_400mmWeaponsHeavy_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_400mmExperimental_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_640mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_800mmWeapons_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_1000mmFixedLance_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_1000mmTurretLance_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_1500mmFixedLance_AWP" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_1500mmMacrocannon_AWP" />
+
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Ace_CubeBlock_ProgressNode_RailgunSmallCal_AWP" />
+            </Blocks>
+       </BlockVariantGroup>
+	   
+	</BlockVariantGroups>
+	
+</Definitions>
