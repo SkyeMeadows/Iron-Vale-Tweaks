@@ -7,7 +7,7 @@
                 <TypeId>JumpDrive</TypeId>
                 <SubtypeId>IVS-LG_KarnyxiumJumpDrive</SubtypeId>
             </Id>
-            <DisplayName>Long Range Karnyxium Jump Drive</DisplayName>
+            <DisplayName>Karnyxium Jump Drive</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
             <Description>This upgraded jump drive has significantly increased range and mass transportation capabilities</Description>
             <CubeSize>Large</CubeSize>

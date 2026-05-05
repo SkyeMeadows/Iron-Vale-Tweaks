@@ -118,9 +118,9 @@
                 <Key>
                   <Time>0</Time>
                   <ValueVector3>
-                    <X>0</X>
-                    <Y>0</Y>
-                    <Z>0</Z>
+                    <X>2</X>
+                    <Y>2</Y>
+                    <Z>2</Z>
                   </ValueVector3>
                   <Value2D />
                 </Key>
@@ -146,7 +146,7 @@
               <Keys>
                 <Key>
                   <Time>0</Time>
-                  <ValueFloat>10</ValueFloat>
+                  <ValueFloat>100</ValueFloat>
                   <Value2D />
                 </Key>
               </Keys>
@@ -154,7 +154,7 @@
             <Property AnimationType="Animated" Name="Velocity var" Type="Float">
               <Keys>
                 <Key>
-                  <Time>0</Time>
+                  <Time>5</Time>
                   <ValueFloat>0</ValueFloat>
                   <Value2D />
                 </Key>
@@ -182,7 +182,7 @@
               <ValueVector3>
                 <X>0</X>
                 <Y>0</Y>
-                <Z>-5</Z>
+                <Z>-50</Z>
               </ValueVector3>
             </Property>
             <Property AnimationType="Animated2D" Name="Acceleration factor [m/s^2]" Type="Float">
@@ -269,7 +269,7 @@
               <Keys>
                 <Key>
                   <Time>0</Time>
-                  <ValueFloat>2000</ValueFloat>
+                  <ValueFloat>10000</ValueFloat>
                   <Value2D />
                 </Key>
                 <Key>
@@ -585,7 +585,7 @@
               <Keys>
                 <Key>
                   <Time>0</Time>
-                  <ValueFloat>75</ValueFloat>
+                  <ValueFloat>300</ValueFloat>
                   <Value2D />
                 </Key>
               </Keys>
@@ -718,7 +718,7 @@
                 </Key>
                 <Key>
                   <Time>10</Time>
-                  <ValueFloat>50000</ValueFloat>
+                  <ValueFloat>200000</ValueFloat>
                   <Value2D />
                 </Key>
               </Keys>
@@ -1134,7 +1134,7 @@
               </Keys>
             </Property>
             <Property AnimationType="Const" Name="Life" Type="Float">
-              <ValueFloat>2</ValueFloat>
+              <ValueFloat>10</ValueFloat>
             </Property>
             <Property AnimationType="Const" Name="Soft particle distance scale" Type="Float">
               <ValueFloat>1</ValueFloat>
@@ -1157,7 +1157,7 @@
                 </Key>
                 <Key>
                   <Time>10</Time>
-                  <ValueFloat>1000</ValueFloat>
+                  <ValueFloat>2000</ValueFloat>
                   <Value2D />
                 </Key>
                 <Key>

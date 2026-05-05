@@ -8,7 +8,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_20PDG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
 		<!-- 20mm PDG LG Elevated -->
@@ -17,7 +17,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_20PDG_Elevated</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
 		<!-- 20mm PDG SG -->
@@ -26,7 +26,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_20PDG_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
 		<!-- 20mm Casemate -->
@@ -35,7 +35,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_20mmCasemate</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
 		<!-- 30mm Chaingun -->
@@ -44,7 +44,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_30mmChaingun_Var1_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 30mm Chaingun - Inverted -->
@@ -53,7 +53,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_30Chaingun_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 30mm Storm Cannon -->
@@ -62,7 +62,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_30StormCannon</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 30mm Storm Cannon SG -->
@@ -71,7 +71,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_30StormCannon_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- Large-Grid Autocannon -->
@@ -80,7 +80,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_AutocannonLG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 43mm Rotary Autocannon -->
@@ -89,7 +89,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_43RAC</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 43mm RAC SG -->
@@ -98,7 +98,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_43RAC_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 60mm Heavy Autocannon -->
@@ -107,7 +107,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_60mmAutocannon</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 60mm Heavy Autocannon Centered -->
@@ -116,7 +116,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_60mmAutocannon_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 80mm Flak Turret -->
@@ -125,7 +125,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_80mmFlakTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
 		<!-- 80mm Flak Turret SG -->
@@ -134,7 +134,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_80mmFlakTurret_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
 		<!-- 80mm Flak Turret Octuple -->
@@ -143,7 +143,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_80mmFlakOctuple</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
 		<!-- 80mm Flak Turret Octuple 3x2 -->
@@ -152,7 +152,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_80mmFlakOctuple_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
 		<!-- 80mm Flak Turret Octuple 3x3 -->
@@ -161,7 +161,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_80mmFlakOctuple_Var2</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
 		<!-- 100mm Rocket Artillery System -->
@@ -170,7 +170,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_100mmRocketTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 100mm Rocket Artillery System, Flat Base -->
@@ -179,7 +179,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_100mmRocketTurret_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 100mm Rocket Artillery System, Flat Base Centered -->
@@ -188,7 +188,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_100mmRocketTurret_Var2</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 100mm Rocket Artillery System SG -->
@@ -197,7 +197,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_100mmRocketTurret_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 150mm Dual Turret -->
@@ -206,7 +206,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_150mmArtillery</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 150mm Tank Gun SG -->
@@ -215,7 +215,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_150mmTankGun_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 150mm Dual Tank Gun SG -->
@@ -224,7 +224,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_150mmTankGunDual_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 150mm Sextuple Battery -->
@@ -233,7 +233,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_150mmHex</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
 		<!-- Breakshot Scattergun Turret -->
@@ -242,7 +242,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_BreakshotScattergun</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- Breakshot Scattergun Turret Centered -->
@@ -251,7 +251,7 @@
 				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>Ace_Turret_BreakshotScattergun_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 220mm Missile Battery -->
@@ -260,7 +260,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_220mmMissileBattery</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 220mm Missile Battery SG -->
@@ -269,7 +269,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_220mmMissileBattery_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Striker Turret -->
@@ -278,7 +278,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmStrikerTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Tank Destroyer Turret -->
@@ -287,7 +287,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmTankDestroyer_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Paladin -->
@@ -296,7 +296,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmPaladin_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Dual, 2x2 -->
@@ -305,7 +305,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmDualTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Dual, 3x2 -->
@@ -314,7 +314,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmDualTurret_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Dual, 3x3 -->
@@ -323,7 +323,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmDualTurret_Var2</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 300mm Ballista Turret Brock Version -->
@@ -332,7 +332,8 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmBallistaTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
+            <Public>false</Public>
 		</Definition>
 
 		<!-- 300mm Ballista Turret OG Version -->
@@ -341,7 +342,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_300mmBallistaTurret_Var1</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 330mm Torpedo Turret -->
@@ -350,7 +351,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_330mmTorpedoTurret</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Siege -->
@@ -359,7 +360,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmSiege</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Casemate -->
@@ -368,7 +369,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmBlister</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Twin Casemate -->
@@ -377,7 +378,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmCasemateTwin</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Assault -->
@@ -386,7 +387,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmAssault</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Triple-Barrel Demolisher -->
@@ -395,7 +396,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmDemolisher</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Vanquisher -->
@@ -404,7 +405,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmVanquisher</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Endbringer -->
@@ -413,7 +414,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_400mmEndbringer</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Onager -->
@@ -422,7 +423,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_640mmOnager</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Ironfist -->
@@ -431,7 +432,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_640mmIronfist</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Gatekeeper Battery -->
@@ -440,7 +441,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_640mmGatekeeper</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Hex -->
@@ -449,7 +450,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_640mmHex</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>4500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 1000mm Casemate -->
@@ -458,7 +459,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_1000mmCasemate</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 1000mm Artillery Lance -->
@@ -467,7 +468,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_1000mmArtilleryLance</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 1500mm Macro Battery -->
@@ -476,7 +477,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_1500mmMacro</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 1500mm Archon Battery -->
@@ -485,7 +486,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_1500mmQuad</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<Public>false</Public>
 		</Definition>
 
 		<!-- Railgun Turret Small Sabot -->
@@ -494,7 +495,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_RailgunSmallCal</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>8000</MaxRangeMeters>
 		</Definition>
 
 		<!-- Railgun Turret Small Sabot SG -->
@@ -503,7 +504,7 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>Ace_Turret_RailgunSmallCal_SG</SubtypeId>
 			</Id>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
 	</CubeBlocks>
