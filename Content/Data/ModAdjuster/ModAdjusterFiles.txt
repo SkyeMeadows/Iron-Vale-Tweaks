@@ -2,6 +2,7 @@ AWP_Ammos.xml
 AWP_BlockCategories.xml
 AWP_BlockVariantGroups.xml
 AWP_CubeBlocks.xml
+BAR.xml
 Blueprints_Rocket.xml
 CubeBlocks_CTC.xml
 CubeBlocks_Drills.xml
