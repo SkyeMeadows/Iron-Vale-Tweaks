@@ -24,7 +24,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="6" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
                 <MountPoint Side="Left" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -107,7 +107,7 @@
                 <Component Subtype="Construction" Count="1" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="1.9" />
                 <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="1.9" />
@@ -185,7 +185,7 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
@@ -276,7 +276,7 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="SteelPlate" Count="120" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="1" EndX="3" EndY="2" />
                 <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -360,7 +360,7 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -437,7 +437,7 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1.0" StartY="1.0" EndX="4.0" EndY="4.0" />
                 <MountPoint Side="Top" StartX="2.0" StartY="0.0" EndX="3.0" EndY="1.0" />
@@ -533,7 +533,7 @@
                 <Component Subtype="Construction" Count="2" />
                 <Component Subtype="SteelPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
@@ -614,7 +614,7 @@
                 <Component Subtype="Construction" Count="40" />
                 <Component Subtype="SteelPlate" Count="120" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="IVS-EchoSeal" Index="0" />
             <MountPoints>
                 <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />

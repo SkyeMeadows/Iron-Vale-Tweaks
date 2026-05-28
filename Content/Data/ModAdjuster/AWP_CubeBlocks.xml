@@ -18,6 +18,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="20" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
@@ -37,6 +38,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="60" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
@@ -56,6 +58,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="20" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
@@ -75,6 +78,7 @@
         		<Component Subtype="Construction" Count="26" />
         		<Component Subtype="SteelPlate" Count="80" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1200</MaxRangeMeters>
 		</Definition>
 
@@ -93,6 +97,7 @@
         		<Component Subtype="Construction" Count="4" />
         		<Component Subtype="SteelPlate" Count="4" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -111,6 +116,7 @@
         		<Component Subtype="Construction" Count="4" />
         		<Component Subtype="SteelPlate" Count="4" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -130,6 +136,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="70" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -149,6 +156,7 @@
         		<Component Subtype="Construction" Count="4" />
         		<Component Subtype="SteelPlate" Count="20" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -167,6 +175,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="60" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -186,6 +195,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="30" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -205,6 +215,7 @@
         		<Component Subtype="Construction" Count="10" />
         		<Component Subtype="SteelPlate" Count="30" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1500</MaxRangeMeters>
 		</Definition>
 
@@ -224,6 +235,7 @@
         		<Component Subtype="Construction" Count="16" />
         		<Component Subtype="SteelPlate" Count="190" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -243,6 +255,7 @@
         		<Component Subtype="Construction" Count="16" />
         		<Component Subtype="SteelPlate" Count="190" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -263,6 +276,7 @@
                 <Component Subtype="Construction" Count="15" />
                 <Component Subtype="SteelPlate" Count="60" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
@@ -282,6 +296,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="20" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
@@ -301,6 +316,7 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="240" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
@@ -320,6 +336,7 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="240" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
@@ -339,6 +356,7 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="240" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>1250</MaxRangeMeters>
 		</Definition>
 
@@ -358,6 +376,7 @@
                 <Component Subtype="Construction" Count="54" />
                 <Component Subtype="SteelPlate" Count="400" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -377,6 +396,7 @@
                 <Component Subtype="Construction" Count="54" />
                 <Component Subtype="SteelPlate" Count="400" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -396,6 +416,7 @@
                 <Component Subtype="Construction" Count="54" />
                 <Component Subtype="SteelPlate" Count="400" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -415,6 +436,7 @@
                 <Component Subtype="Construction" Count="54" />
                 <Component Subtype="SteelPlate" Count="160" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -435,6 +457,7 @@
                 <Component Subtype="Construction" Count="14" />
                 <Component Subtype="SteelPlate" Count="48" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
@@ -455,6 +478,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="290" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
@@ -475,6 +499,7 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="360" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
@@ -495,6 +520,7 @@
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="SteelPlate" Count="440" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2500</MaxRangeMeters>
 		</Definition>
 
@@ -515,6 +541,7 @@
         		<Component Subtype="Construction" Count="54" />
         		<Component Subtype="SteelPlate" Count="320" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -535,6 +562,7 @@
         		<Component Subtype="Construction" Count="54" />
         		<Component Subtype="SteelPlate" Count="320" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>2000</MaxRangeMeters>
 		</Definition>
 
@@ -555,6 +583,7 @@
                 <Component Subtype="Construction" Count="14" />
                 <Component Subtype="SteelPlate" Count="72" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
@@ -575,6 +604,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="60" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
@@ -594,6 +624,7 @@
                 <Component Subtype="Construction" Count="8" />
                 <Component Subtype="SteelPlate" Count="80" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
@@ -614,6 +645,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="SteelPlate" Count="60" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
@@ -633,6 +665,7 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="160" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>3000</MaxRangeMeters>
 		</Definition>
 
@@ -652,6 +685,7 @@
                 <Component Subtype="Construction" Count="16" />
                 <Component Subtype="SteelPlate" Count="160" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
@@ -671,6 +705,7 @@
                 <Component Subtype="Construction" Count="16" />
                 <Component Subtype="SteelPlate" Count="160" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
@@ -690,6 +725,7 @@
                 <Component Subtype="Construction" Count="16" />
                 <Component Subtype="SteelPlate" Count="160" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
@@ -709,6 +745,7 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="240" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
             <Public>false</Public>
 		</Definition>
@@ -729,6 +766,7 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="240" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>4000</MaxRangeMeters>
 		</Definition>
 
@@ -748,6 +786,7 @@
                 <Component Subtype="Construction" Count="28" />
                 <Component Subtype="SteelPlate" Count="280" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
@@ -768,7 +807,8 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="60" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Casemate -->
@@ -788,7 +828,8 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="64" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Twin Casemate -->
@@ -808,7 +849,8 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="100" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Assault -->
@@ -828,7 +870,8 @@
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SteelPlate" Count="180" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Triple-Barrel Demolisher -->
@@ -848,7 +891,8 @@
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SteelPlate" Count="310" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Vanquisher -->
@@ -868,7 +912,8 @@
                 <Component Subtype="Construction" Count="44" />
                 <Component Subtype="SteelPlate" Count="400" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 400mm Endbringer -->
@@ -888,7 +933,8 @@
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="SteelPlate" Count="800" />
 			</Components>
-			<MaxRangeMeters>6000</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5000</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Onager -->
@@ -908,7 +954,8 @@
                 <Component Subtype="MetalGrid" Count="30" />
                 <Component Subtype="SteelPlate" Count="520" />
 			</Components>
-			<MaxRangeMeters>4500</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Ironfist -->
@@ -928,7 +975,8 @@
                 <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="SteelPlate" Count="620" />
 			</Components>
-			<MaxRangeMeters>4500</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Gatekeeper Battery -->
@@ -948,7 +996,8 @@
                 <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="SteelPlate" Count="760" />
 			</Components>
-			<MaxRangeMeters>4500</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 640mm Hex -->
@@ -968,7 +1017,8 @@
                 <Component Subtype="MetalGrid" Count="80" />
                 <Component Subtype="SteelPlate" Count="960" />
 			</Components>
-			<MaxRangeMeters>4500</MaxRangeMeters>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MaxRangeMeters>5500</MaxRangeMeters>
 		</Definition>
 
 		<!-- 1000mm Casemate -->
@@ -988,6 +1038,7 @@
                 <Component Subtype="Construction" Count="80" />
                 <Component Subtype="SteelPlate" Count="840" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
@@ -1008,6 +1059,7 @@
                 <Component Subtype="Construction" Count="60" />
                 <Component Subtype="SteelPlate" Count="920" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
@@ -1028,6 +1080,7 @@
 				<Component Subtype="InteriorPlate" Count="80" />
                 <Component Subtype="SteelPlate" Count="1640" />
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>6000</MaxRangeMeters>
 		</Definition>
 
@@ -1058,6 +1111,7 @@
                 <Component Subtype="BulletproofGlass" Count="40" />
 				<Component Subtype="SteelPlate" Count="300"/>
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>8000</MaxRangeMeters>
 		</Definition>
 
@@ -1079,6 +1133,7 @@
                 <Component Subtype="BulletproofGlass" Count="18" />
 				<Component Subtype="SteelPlate" Count="240"/>
 			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MaxRangeMeters>7000</MaxRangeMeters>
 		</Definition>
 
