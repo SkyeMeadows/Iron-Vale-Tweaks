@@ -5,6 +5,7 @@
         <Entry Class="Ingots" BlueprintSubtypeId="IVS-CyriteRefinement" />
 
         <Entry Class="Components" BlueprintSubtypeId="IVS-KarnyxiumCore" />
+        <Entry Class="Components" BlueprintSubtypeId="IVS-SmallKarnyxiumCore" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-HardenedPlate" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-JumpCatalyst" />
         <Entry Class="Components" BlueprintSubtypeId="IVS-EchoSeal" />

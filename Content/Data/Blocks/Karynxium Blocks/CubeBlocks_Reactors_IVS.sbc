@@ -758,7 +758,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-            <MaxPowerOutput>1</MaxPowerOutput>
+            <MaxPowerOutput>3</MaxPowerOutput>
             <InventorySize>
                 <X>0.5</X>
                 <Y>0.5</Y>
