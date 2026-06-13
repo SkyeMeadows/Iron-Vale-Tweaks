@@ -474,7 +474,7 @@
       <BasicProperties>
         <DesiredSpeed>820</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>6000</MaxTrajectory>
+        <MaxTrajectory>5000</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
         <BackkickForce>400000</BackkickForce>
         <PhysicalMaterial>LargeShell</PhysicalMaterial>
